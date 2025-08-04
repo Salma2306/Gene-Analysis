@@ -1,8 +1,8 @@
 streamlit==1.32.0
 streamlit-option-menu==0.3.6
-numpy==1.26.4
-pandas==2.1.4
-biopython==1.81
+numpy==1.25.2
+pandas==2.0.3
+biopython==1.79
 matplotlib==3.8.2
 seaborn==0.13.0
 requests==2.31.0

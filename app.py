@@ -102,7 +102,7 @@ def display_enrichment_results(output_dir):
         if os.path.exists(plot_path):
             with cols[col_idx % 2]:
                 st.image(plot_path, 
-                        use_container_width=True,
+                        use_column_width=True,
                         caption=f"{db_name.replace('_', ' ')} Enrichment")
             col_idx += 1
     
@@ -188,7 +188,7 @@ if selected == "Home":
     3. **Primer Design** - Biologically validated PCR primers
     """)
     st.image("https://www.genome.gov/sites/default/files/tg/en/illustration/dna_sequence.jpg", 
-             use_container_width=True)
+             use_column_width=True)
 
 # Gene Annotation Tool
 elif selected == "Gene Annotation":
@@ -328,3 +328,4 @@ st.markdown("""
 [Report issues](mailto:support@genetoolkit.com)
 
 """)
+

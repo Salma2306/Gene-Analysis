@@ -168,7 +168,7 @@ def safe_primer_display_and_download():
 # Sidebar navigation
 with st.sidebar:
     st.image("https://cdn-icons-png.flaticon.com/512/2772/2772128.png", 
-             use_container_width=True)
+             use_column_width=True)
     st.title("Gene Analysis Toolkit")
     selected = option_menu(
         menu_title=None,
@@ -326,4 +326,5 @@ st.markdown("""
 **Gene Analysis Toolkit v2.1**  
 *All issues fixed including primer KeyError*  
 [Report issues](mailto:support@genetoolkit.com)
+
 """)

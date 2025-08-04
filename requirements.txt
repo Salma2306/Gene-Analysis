@@ -1,8 +1,7 @@
---only-binary :all:
 streamlit==1.32.0
 streamlit-option-menu==0.3.6
-numpy>=1.26.0
-pandas>=2.2.3
+numpy==1.26.4
+pandas==2.1.4
 biopython==1.81
 matplotlib==3.8.2
 seaborn==0.13.0

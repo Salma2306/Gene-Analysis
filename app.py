@@ -324,8 +324,9 @@ elif selected == "Primer Design":
 st.markdown("---")
 st.markdown("""
 **Gene Analysis Toolkit v2.1**  
-*All issues fixed including primer KeyError*  
+*Initial issues fixed including primer KeyError*  
 [Report issues](mailto:support@genetoolkit.com)
 
 """)
+
 

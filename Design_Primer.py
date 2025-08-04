@@ -13,13 +13,6 @@ import socket
 
 def run_primer_design():
     """Main primer design function to be called from Streamlit app"""
-    
-    # App Configuration
-    st.set_page_config(
-        page_title="🧬 Robust Primer Designer",
-        layout="wide",
-        page_icon="🧬"
-    )
 
     # Constants
     Entrez.email = "your.email@example.com"  # Required for NCBI access

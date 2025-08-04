@@ -325,8 +325,9 @@ st.markdown("---")
 st.markdown("""
 **Gene Analysis Toolkit v2.1**  
 *Initial issues fixed including primer KeyError*  
-[Report issues](mailto:support@genetoolkit.com)
+[Report issues](mailto:Salmaloukman37@gmail.com)
 
 """)
+
 
 

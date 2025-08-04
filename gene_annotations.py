@@ -1,4 +1,6 @@
+import requests
 import pandas as pd
+from io import BytesIO
 import time
 from pathlib import Path
 from urllib3.util.retry import Retry

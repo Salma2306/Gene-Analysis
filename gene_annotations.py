@@ -15,9 +15,6 @@ import json
 import sys
 from Bio import Entrez
 
-Entrez.email = "salmaloukman37@gmail.com"  # REQUIRED
-Entrez.api_key = "5cd0f5c19a3b1096410f79325b0169db7f08"  # Optional but helpful
-
 # Suppress warnings
 warnings.filterwarnings("ignore")
 
@@ -151,7 +148,10 @@ class GeneAnnotationTool:
                 "term": f"{gene_symbol}[Title/Abstract] OR {gene_symbol}[MeSH Terms] OR {gene_symbol}[Keyword]",
                 "retmax": max_results,
                 "sort": "relevance",
-                "retmode": "json"
+                "retmode": "json",
+                "email": "salmaloukman37@gmail.com",
+                "api_key": "5cd0f5c19a3b1096410f79325b0169db7f08"  
+
             }
             response = self.session.get(search_url, params=search_params, timeout=self.REQUEST_TIMEOUT)
             response.raise_for_status()

@@ -13,6 +13,10 @@ import openpyxl
 from datetime import datetime
 import json
 import sys
+from Bio import Entrez
+
+Entrez.email = "salmaloukman37@gmail.com"  # REQUIRED
+Entrez.api_key = "5cd0f5c19a3b1096410f79325b0169db7f08"  # Optional but helpful
 
 # Suppress warnings
 warnings.filterwarnings("ignore")

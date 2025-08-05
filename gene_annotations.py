@@ -174,7 +174,7 @@ class GeneAnnotationTool:
                 
                 # Parse XML response
                 from bs4 import BeautifulSoup
-                soup = BeautifulSoup(response.text, 'xml')
+                soup = BeautifulSoup(response.text, 'lxml')
                 
                 for article in soup.find_all('PubmedArticle'):
                     pmid = article.find('PMID').text if article.find('PMID') else "N/A"

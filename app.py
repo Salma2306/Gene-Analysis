@@ -326,12 +326,15 @@ st.markdown("""
 **Gene Analysis Toolkit v2.1**  
 *Initial issues fixed including primer KeyError*  
 [Report issues](mailto:Salmaloukman37@gmail.com)
-[How to cite us](Salma LOUKMAN, Reda BEN MRID, Najat BOUCHMAA, Hicham HBOUB, Rachid EL FATIMY and Rachid BENHIDA,
- Integrative Transcriptomic Profiling of NK Cells and Monocytes: Advancing
- Diagnostic and Therapeutic Strategies for COVID-19, Computational and
- Structural Biotechnology Reports, (2025)
- doi:https://doi.org/10.1016/j.csbr.2025.100059)
+
+**How to cite us:**  
+Salma LOUKMAN, Reda BEN MRID, Najat BOUCHMAA, Hicham HBOUB, Rachid EL FATIMY and Rachid BENHIDA,
+Integrative Transcriptomic Profiling of NK Cells and Monocytes: Advancing
+Diagnostic and Therapeutic Strategies for COVID-19, Computational and
+Structural Biotechnology Reports, (2025)
+doi: [10.1016/j.csbr.2025.100059](https://doi.org/10.1016/j.csbr.2025.100059)
 """)
+
 
 
 

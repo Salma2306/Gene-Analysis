@@ -351,8 +351,11 @@ class EnrichmentAnalyzer:
                 <p><strong>Visualization:</strong> Dot plots show the -log10 transformed adjusted p-values (x-axis) 
                 versus enriched terms (y-axis), with point size representing the combined enrichment score and color 
                 indicating statistical significance. The red dashed line indicates the significance threshold (p=0.1).</p>
-                <p><strong>Reference:</strong> Kuleshov MV, et al. Enrichr: a comprehensive gene set enrichment analysis web server 2016 update. 
+                <p><strong>Reference1:</strong> Kuleshov MV, et al. Enrichr: a comprehensive gene set enrichment analysis web server 2016 update. 
                 Nucleic Acids Res. 2016;44(W1):W90-7. doi:10.1093/nar/gkw377</p>
+                <p><strong>Reference2:</strong> Salma LOUKMAN, et al. Article: Integrative Transcriptomic Profiling of NK Cells and Monocytes. 
+                Computational and Structural Biotechnology Reports. 2025. doi:10.1016/j.csbr.2025.100059
+
             </div>
         </body>
         </html>

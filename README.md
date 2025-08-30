@@ -24,6 +24,9 @@ A comprehensive web application for genetic research with three powerful tools: 
 - NCBI sequence fetching with caching
 - Detailed primer metrics (GC%, Tm, etc.)
 
+### How to cite us:
+Salma LOUKMAN, et al. Integrative Transcriptomic Profiling of NK Cells and Monocytes: Advancing Diagnostic and Therapeutic Strategies for COVID-19, Computational and Structural Biotechnology Reports, (2025) doi: 10.1016/j.csbr.2025.100059
+
 ## 🚀 Deployment Guide
 
 ### Recommended: Streamlit Community Cloud
@@ -34,5 +37,3 @@ A comprehensive web application for genetic research with three powerful tools: 
 4. Select your forked repository
 5. Set main file path to `app.py`
 6. Click "Deploy"
-## How to cite us:
-Salma LOUKMAN, et al. Integrative Transcriptomic Profiling of NK Cells and Monocytes: Advancing Diagnostic and Therapeutic Strategies for COVID-19, Computational and Structural Biotechnology Reports, (2025) doi: 10.1016/j.csbr.2025.100059
